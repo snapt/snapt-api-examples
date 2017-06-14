@@ -1,2 +1,9 @@
-# snapt-api-examples
-Example code for the Snapt ADC API
+# ![pageres](images/snapt_logo.png)
+
+## Snapt ADC API
+Various code examples and tools for using the Snapt ADC API
+
+
+## Copyright
+
+Copyright © 2017 by Snapt Systems Pty Ltd. All rights reserved.
