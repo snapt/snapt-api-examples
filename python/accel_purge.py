@@ -5,10 +5,8 @@ API_KEY = ''
 API_SECRET = ''
 API_MODULE = 'snaptNginx'
 
-# the URL is always /api/apikey/apisecret/module - in this case module is snaptHA for the Balancer
+# the URL is always /api/apikey/apisecret/module - in this case module is snaptNginx for the Accelerator
 API_FULL_URL = f'http://{API_ADDRESS}/api/{API_KEY}/{API_SECRET}/{API_MODULE}'
-
-GROUP_MODE_HTTP = 'http'
 
 
 def list_methods(proxy):

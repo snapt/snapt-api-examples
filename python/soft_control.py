@@ -8,8 +8,6 @@ API_MODULE = 'snaptHA'
 # the URL is always /api/apikey/apisecret/module - in this case module is snaptHA for the Balancer
 API_FULL_URL = f'http://{API_ADDRESS}/api/{API_KEY}/{API_SECRET}/{API_MODULE}'
 
-GROUP_MODE_HTTP = 'http'
-
 
 def soft_start(proxy, backend, server):
     return proxy.snaptHA.soft_start([
