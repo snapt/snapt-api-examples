@@ -1,11 +1,11 @@
 require "xmlrpc/client"
 
 API_ADDRESS = "192.168.1.20:8080"
-API_KEY = "1f29-1266-694-18ec"
-API_SECRET = "SNP5f8d8ef59d229240105044"
+API_KEY = ""
+API_SECRET = ""
 API_MODULE = "snaptNginx"
 
-# the URL is always /api/apikey/apisecret/module - in this case module is snaptHA for the Balancer
+# the URL is always /api/apikey/apisecret/module - in this case module is snaptNginx for the Accelerator
 API_FULL_URL = "http://#{API_ADDRESS}/api/#{API_KEY}/#{API_SECRET}/#{API_MODULE}"
 
 def list_methods(client)

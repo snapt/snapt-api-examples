@@ -1,8 +1,8 @@
 require "xmlrpc/client"
 
 API_ADDRESS = "192.168.1.20:8080"
-API_KEY = "1f29-1266-694-18ec"
-API_SECRET = "SNP5f8d8ef59d229240105044"
+API_KEY = ""
+API_SECRET = ""
 API_MODULE = "snaptHA"
 
 # the URL is always /api/apikey/apisecret/module - in this case module is snaptHA for the Balancer
